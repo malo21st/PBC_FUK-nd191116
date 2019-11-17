@@ -68,6 +68,7 @@ event_map.save("event_map.html")
  - （参考書籍）[Pythonクローリング&スクレイピング -データ収集・解析のための実践開発ガイド](https://www.amazon.co.jp/gp/product/4774183679/)
 
 ```python
+# https://www.python.org/blogs/ から Latest News のお題を表示する
 import requests
 import lxml.html # pip install lxml
 
