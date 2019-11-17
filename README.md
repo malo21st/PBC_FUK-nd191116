@@ -69,7 +69,7 @@ event_map.save("event_map.html")
 
 ```python
 import requests
-import lxml.html
+import lxml.html # pip install lxml
 
 response = requests.get('https://www.python.org/blogs/')
 html = lxml.html.fromstring(response.content)
